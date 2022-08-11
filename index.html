@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A shopping Cart Using JavaScript</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- title  -->
+    <nav class="navbar navbar-light bg-light">
+        <span href="#" class="display-4 mx-auto">A shopping Cart Using JavaScript</span>
+    </nav>
+    <!-- end title  -->
+
+    <!-- content section  -->
+    <div class="row m-5">
+        <!-- product list -->
+        <div class="col-lg-8 p-2">
+            <!-- product row -->
+            <div id="product-list" class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
+                <!-- 1st item -->
+                <div class="col p-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/61g7PxyAg6S._AC_SX679_.jpg" class="card-img-top p-2" alt="SHASHIBO Shape Shifting Box">
+                        <div class="card-body">
+                            <h5 class="card-title">SHASHIBO Shape Shifting Box</h5>
+                            <div class="mx-1 row justify-content-between align-items-center">
+                                <span class="font-weight-bolder">$1200</span>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end 1st item -->
+
+                <!-- 2nd item -->
+                <div class="col p-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/71-hfe2b1-L._AC_SX425_.jpg" class="card-img-top p-2" alt="Educational Insights Kanoodle Gravity Brain Bending Puzzle Game for Kids">
+                        <div class="card-body">
+                            <h5 class="card-title">Puzzle Game for Kids</h5>
+                            <div class="mx-1 row justify-content-between align-items-center">
+                                <span class="font-weight-bolder">$18</span>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end 2nd item -->
+
+                <!-- 3rd item -->
+                <div class="col p-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/81HKDm65PXL._AC_SX425_.jpg" class="card-img-top p-2" alt="Educational Insights Kanoodle Flip 3-D Puzzle Game for Kids">
+                        <div class="card-body">
+                            <h5 class="card-title">3-D Puzzle Game for Kids</h5>
+                            <div class="mx-1 row justify-content-between align-items-center">
+                                <span class="font-weight-bolder">$12</span>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end 3rd item -->
+
+                <!-- 4th item -->
+                <div class="col p-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/71-hfe2b1-L._AC_SX425_.jpg" class="card-img-top p-2" alt="Gravity Brain Bending Puzzle Game">
+                        <div class="card-body">
+                            <h5 class="card-title">Gravity Brain Bending Puzzle Game</h5>
+                            <div class="mx-1 row justify-content-between align-items-center">
+                                <span class="font-weight-bolder">$17</span>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end 4th item -->
+
+                <!-- 5th item -->
+                <div class="col p-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/51Syip5sDuL._AC_SX425_.jpg" class="card-img-top p-2" alt="Puzzle Game for one player">
+                        <div class="card-body">
+                            <h5 class="card-title">Puzzle Game for one player</h5>
+                            <div class="mx-1 row justify-content-between align-items-center">
+                                <span class="font-weight-bolder">$36</span>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end 5th item -->
+
+                <!-- 6th item -->
+                <div class="col p-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/61vycZT+v6L._AC_SY355_.jpg" class="card-img-top p-2" alt="Learning Resources Classpack Tangrams, Math Manipulative">
+                        <div class="card-body">
+                            <h5 class="card-title">Learning Resources Classpack Tangrams</h5>
+                            <div class="mx-1 row justify-content-between align-items-center">
+                                <span class="font-weight-bolder">$25</span>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end 6th item -->
+                
+                <!-- 7th item -->
+                <div class="col p-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/71iehzCK+JL._AC_SY355_.jpg" class="card-img-top p-2" alt="Learning Resources Centimeter Cubes">
+                        <div class="card-body">
+                            <h5 class="card-title">Learning Resources Centimeter Cubes</h5>
+                            <div class="mx-1 row justify-content-between align-items-center">
+                                <span class="font-weight-bolder">$34</span>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end 7th item -->
+
+                <!-- 8th item -->
+                <div class="col p-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/61H7fVldtLL._AC_SX425_.jpg" class="card-img-top p-2" alt="Learning Resources Wooden Color Cubes">
+                        <div class="card-body">
+                            <h5 class="card-title">Learning Resources Wooden Color Cubes</h5>
+                            <div class="mx-1 row justify-content-between align-items-center">
+                                <span class="font-weight-bolder">$20</span>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end 8th item -->
+                
+                <!-- 9th item -->
+                <div class="col p-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/81fb+cwKpdL._AC_SX425_.jpg" class="card-img-top" alt="Learning Resources Magnetic Wands">
+                        <div class="card-body">
+                            <h5 class="card-title">Learning Resources Magnetic Wands</h5>
+                            <div class="mx-1 row justify-content-between align-items-center">
+                                <span class="font-weight-bolder">$15</span>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end 9th item -->
+                
+                <!-- 10th item -->
+                <div class="col p-2">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/71D3GA7bD7L._SX342_.jpg" class="card-img-top" alt="Learning Resources Liquid Measuring Set">
+                        <div class="card-body">
+                            <h5 class="card-title">Learning Resources Liquid Measuring Set</h5>
+                            <div class="mx-1 row justify-content-between align-items-center">
+                                <span class="font-weight-bolder">$29</span>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end 10th item -->
+            </div>
+            <!-- end product row -->
+        </div>
+        <!-- end product list -->
+
+        <!-- cart list -->
+        <div class="col col-lg-4 p-3">
+            <div class="card">
+                <div class="card-header h3 text-center">
+                    Cart List
+                </div>
+                <ul id="cart-list" class="list-group list-group-flush">
+                </ul>
+            </div>
+        </div>
+        <!-- end cart list -->
+    </div>
+    <!-- end contnet section -->
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js" type="module"></script>
+</body>
+
+</html>
